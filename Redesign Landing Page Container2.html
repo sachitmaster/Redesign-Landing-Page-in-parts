@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redesign Landing Page Container2</title>
+    <style>
+          *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+          .container5{
+            /* border: 2px solid black; */
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-left: 7rem;
+            padding-right: 7rem;
+        }
+        .boxes2{
+            /* border: 2px solid red; */
+            width: 35%;
+            border-radius: 5px;
+            box-shadow: 0px 0px 5px 2px gray;
+            margin-bottom: 4rem;
+        }
+        .h1{
+            margin-left: 1rem;
+        }
+        .h2{
+            display: flex;
+            justify-content: flex-end;
+            margin-right: 1rem;
+        }
+        .boxes2 img{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 40vh;
+        }
+        .para2{
+            margin-left: 1rem;
+            margin-bottom: 1.5rem;
+            font-family: 'Playfair Display', serif;
+            font-weight: 600;
+            font-size: .9rem;
+        }
+        .para3{
+            margin-left: 1rem;
+            font-size: .8rem;
+            margin-bottom: 1rem;
+        }
+        @media screen and (max-width:1195px) {
+            .container7{
+                margin: 0rem 7rem;
+            }
+        }
+        @media screen and (max-width:768px) {
+            .container4{
+                padding-left: 3rem;
+                padding-right: 3rem;
+            }
+            .btn2{
+                padding: .5rem 2rem;
+            }
+            .container5{
+                padding-left: 6rem;
+                padding-right: 6rem;
+            }
+            .container7{
+                margin: 0rem 5rem;
+            }
+        }
+        @media screen and (max-width:750px) {
+            body{
+                width: 100%;
+            }
+            .container1{
+                padding-left: unset;
+                width: 100%;
+                height: 50vh;
+            }
+            .container2{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 50%;
+            }
+            .container2 h1{
+                font-size: .9rem;
+                text-align: center;
+                padding-left: .4rem;
+            }
+            .container2 .btn{
+                padding: 0rem 1rem;
+                width: fit-content;
+                height: 6vh;
+            }
+            .container3{
+                width: 50%;
+                background-size: cover;
+           }
+           .container4{
+               display: flex;
+               flex-direction: column;
+               width: 100%;
+               padding: 0rem 3rem;
+           }
+           .boxes1{
+               margin: 1rem 0rem;
+           }
+           .container5{
+               width: 100%;
+               display: flex;
+               flex-direction: column;
+               padding: 0rem 3rem;
+           }
+           .boxes2{
+               width: unset;
+           }
+           .container6{
+               width: 100%;
+           }
+           .container7{
+               width: 100%;
+               margin: unset;
+           }
+           .boxes3{
+               width: unset;
+           }
+        }
+    </style>
+</head>
+<body>
+     <div class="container5">
+        <div class="boxes2">
+            <h1 class="h1">Recent Blogs</h1>
+        <img src="https://www.legalkart.com/frontend/client_base_web/layout-optim/legal-for-startup/startup-banner2.png" alt="">
+        <p class="para2">
+            Lessons for Entrepreneurship by Women in HealthTech................
+        </p>
+        <p class="para3">Startup India | Invest India</p>
+    </div>
+    <div class="boxes2">
+        <h1 class="h2">Testimonals</h1>
+        <img src="https://www.legalkart.com/frontend/client_base_web/layout-optim/legal-for-startup/startup-banner2.png" alt="">
+        <p class="para2">
+            Lessons for Entrepreneurship by Women in HealthTech................
+        </p>
+        <p class="para3">Startup India | Invest India</p>
+    </div>
+    </div>
+</body>
+</html>
